@@ -32,4 +32,3 @@ if(result==-1):
     print("Card not found)")
 else:
     print("The card at location " + str(result) + " is the one, given that the list starts at index 0")
-
