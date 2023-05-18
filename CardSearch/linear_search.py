@@ -12,7 +12,7 @@ import math
 #Let's assume that the correct answer is the card with number 10 (at index 3)
 
 
-def locate_card_with_binary_search(cards,card_to_find):
+def locate_card_with_linear_search(cards,card_to_find):
     index = 0
 
     print('Cards:', cards)
@@ -27,7 +27,7 @@ def locate_card_with_binary_search(cards,card_to_find):
 cards=[20,16,13,10,7,4,2]
 card_to_find = 10
 
-result = locate_card_with_binary_search(cards,card_to_find)
+result = locate_card_with_linear_search(cards,card_to_find)
 if(result==-1):
     print("Card not found)")
 else:
