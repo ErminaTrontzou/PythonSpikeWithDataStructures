@@ -1,7 +1,7 @@
 #We should create some tests for every possible combination scenario
 import pytest
 
-from RotateList.rotated_list import count_rotations_of_a_list
+from RotatedList.rotated_list import count_rotations_of_a_list
 
 def test_a_list_of_5_with_2_rotations():
     # Given
