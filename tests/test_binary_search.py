@@ -4,7 +4,6 @@ import pytest
 #Tests for answer one
 from CardSearch.card_search import locate_card_with_binary_search
 
-#_card_to_find occurs in the middle
 def test_locate_card_with_binary_search_with_card_to_find_at_the_middle():
     # Given.
     cards=[13, 11, 10, 7, 4, 3, 1, 0]
