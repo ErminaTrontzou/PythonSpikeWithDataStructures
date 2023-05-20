@@ -1,4 +1,12 @@
 {
     "vscode-pets.petSize": "small",
-    "vscode-pets.theme": "castle"
+    "vscode-pets.theme": "castle",
+    "cSpell.words": [
+        "inorder",
+        "inordered",
+        "postorder",
+        "Postordered",
+        "preorder",
+        "preordered"
+    ]
 }

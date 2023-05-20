@@ -58,3 +58,11 @@ def test_a_list_with_only_negative_numbers():
     rotations = count_rotations_of_a_list(num_list)
     # Then
     assert rotations == 1
+
+def test_a_list_with_one_element():
+        # Given
+    num_list = [3]
+    # When
+    rotations = count_rotations_of_a_list(num_list)
+    # Then
+    assert rotations == 0
